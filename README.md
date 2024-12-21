@@ -1,8 +1,22 @@
-# Ping Pong Game
+<h1 align="center">Ping Pong Game</h1>
 
-A modern and visually appealing ping pong game implemented using HTML5, CSS, and JavaScript. This project offers an engaging experience with realistic physics, customizable gameplay options, and a sleek user interface.
+<p align="center">
+  A modern and visually appealing ping pong game implemented using HTML5, CSS, and JavaScript. This project offers an engaging experience with realistic physics, customizable gameplay options, and a sleek user interface.
+</p>
+
+<p align="center">
+  <img src="https://seeklogo.com/images/P/ping-pong-logo-3389E45F8C-seeklogo.com.png" width="300" alt="Ping Pong Game Logo">
+</p>
+
+<p align="center">
+  ⭐️ If you find this project useful, consider giving it a star to show your support. ⭐
+</p>
 
 ---
+
+## Demo
+
+[![Demo](https://img.shields.io/badge/Demo-View%20Demo-blue)](https://ramazancetinkaya.github.io/ping-pong-game/)
 
 ## Features
 
