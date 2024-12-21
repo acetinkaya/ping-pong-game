@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0e0e0e;
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+canvas {
+    border: 2px solid #555;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+.menu {
+    text-align: center;
+    padding: 20px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+.menu button {
+    background: #333;
+    color: #f0f0f0;
+    border: none;
+    padding: 15px 35px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+}
+.menu button:hover {
+    background: #444;
+    transform: scale(1.05);
+}
+h1 {
+    font-size: 2.8rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 1.2rem;
+    color: #cccccc;
+}
+#pong {
+    background: #161616;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    padding: 0 30px;
+    color: #f0f0f0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
