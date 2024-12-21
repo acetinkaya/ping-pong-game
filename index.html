@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Game</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu" class="menu">
+        <h1>Ping Pong Game</h1>
+        <p>Select Game Mode:</p>
+        <button onclick="selectMode('human-ai')">Human vs AI</button>
+        <button onclick="selectMode('player-player')">Player vs Player</button>
+    </div>
+
+    <div id="settings" class="menu" style="display: none;">
+        <h1>Game Settings</h1>
+        <p>Select Match Type:</p>
+        <button onclick="startGame(1)">First of 1</button>
+        <button onclick="startGame(3)">First of 3</button>
+        <button onclick="startGame(5)">First of 5</button>
+    </div>
+
+    <canvas id="pong" width="800" height="500" style="display: none;"></canvas>
+
+    <div id="game-over" class="menu" style="display: none;">
+        <h1>Game Over</h1>
+        <p id="winner"></p>
+        <button onclick="resetGame()">Play Again</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
